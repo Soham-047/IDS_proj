@@ -1,46 +1,73 @@
-## FlowGuard – Real-Time Machine Learning–Based Network Intrusion Detection System
+# 🛡️ FlowGuard  
+## Real-Time Machine Learning–Based Network Intrusion Detection System
 
-# OVERVIEW
-FlowGuard is a truly live network intrusion detection system (IDS) that performs continuous machine learning inference on real-time network traffic.
+---
 
-# SYSTEM ARCHITECTURE
-Live Network Traffic → Zeek → Flow Logs → Sliding Window → ML Model → Alert/Normal
+## 📌 Overview
 
-# PROJECT STRUCTURE
+**FlowGuard** is a **truly live Network Intrusion Detection System (IDS)** that performs **continuous machine learning inference** on **real-time network traffic**.
+
+Unlike traditional IDS implementations that rely on offline datasets or traffic replay, FlowGuard operates on **live network flows**, making real-time security decisions using a trained ML model.
+
+---
+
+## 🧠 System Architecture
+
+Live Network Traffic
+↓
+Zeek
+↓
+Flow Logs (conn.log)
+↓
+Sliding Window Aggregation
+↓
+Feature Vector
+↓
+ML Model
+↓
+ALERT / NORMAL
+
+yaml
+Copy code
+
+---
+
+## 📂 Project Structure
+
 flowguard/
 ├── data/
-│   ├── raw/
-│   │   └── Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
-│   └── training_windows.csv
+│ ├── raw/
+│ │ └── Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+│ └── training_windows.csv
+│
 ├── flowguard_live/
-│   └── conn.log
+│ └── conn.log
+│
 ├── live_engine/
-│   ├── parse_conn_log.py
-│   ├── window_aggregator.py
-│   ├── live_predictor.py
-│   └── fake_attack.py
+│ ├── parse_conn_log.py
+│ ├── window_aggregator.py
+│ ├── live_predictor.py
+│ └── fake_attack.py
+│
 ├── model/
-│   ├── train_model.py
-│   └── model.pkl
+│ ├── train_model.py
+│ └── model.pkl
+│
 ├── venv/
 └── README.md
 
-# SETUP
+yaml
+Copy code
+
+---
+
+## ⚙️ Setup
+
+### 1️⃣ Create Virtual Environment
+```bash
 python3 -m venv venv
 source venv/bin/activate
+2️⃣ Install Dependencies
+```bash
+
 pip install pandas numpy scikit-learn joblib
-
-# DATASET
-Download CIC-IDS2017 from:
-https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset
-
-# USAGE
-python data/prepare_training_data.py
-python model/train_model.py
-sudo zeek -i en0
-python live_engine/live_predictor.py
-
-# FEATURE SCHEMA
-[flow_count, orig_bytes_sum, resp_bytes_sum, avg_duration]
-
-
