@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2026-02-09-17-07-29
+#fields	ts	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	failure_reason	failure_data
+#types	time	string	string	string	string	addr	port	addr	port	enum	string	string
+1770637048.983899	protocol	DNS	CXArqb4hRmmtS5v9M2	-	fe80::1	5353	ff02::fb	5353	udp	DNS_Conn_count_too_large	-
+1770637048.984428	protocol	DNS	CmLfKm0aBN1R0Ugt2	-	fe80::802:22d5:14e2:5106	5353	ff02::fb	5353	udp	DNS_Conn_count_too_large	-

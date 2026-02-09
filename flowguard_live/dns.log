@@ -1,0 +1,89 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2026-02-08-18-42-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected	opcode	opcode_name
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool	count	string
+1770556373.153633	C4LbYV1Lb4MtWzXSy5	fe80::1423:26ab:cd80:a4e5	58295	fe80::600f:6bff:fe5d:8464	53	udp	63475	-	securetoken.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	216.239.36.223,216.239.38.223,216.239.32.223,216.239.34.223	308.000000,308.000000,308.000000,308.000000	F	0	query
+1770556373.153633	C9OFkG4c6jZsa11tv9	172.20.10.2	6459	172.20.10.1	53	udp	46512	-	securetoken.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	216.239.36.223,216.239.38.223,216.239.32.223,216.239.34.223	308.000000,308.000000,308.000000,308.000000	F	0	query
+1770556373.153633	CEIKVu3E8lhNW5HRak	172.20.10.2	19520	172.20.10.1	53	udp	10262	-	securetoken.googleapis.com	1	C_INTERNET	65	HTTPS	0	NOERROR	F	F	T	F	0	-	-	F	0	query
+1770556373.153633	CJY0cU3knTGupkMOkc	172.20.10.2	17051	172.20.10.1	53	udp	37386	0.090704	securetoken.googleapis.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	2001:4860:4802:32::223,2001:4860:4802:34::223,2001:4860:4802:38::223,2001:4860:4802:36::223	57.000000,57.000000,57.000000,57.000000	F	0	query
+1770556391.508512	CxXbMF4bm4SPrvjxIe	172.20.10.2	48897	172.20.10.1	53	udp	8834	0.010472	spclient.wg.spotify.com	1	C_INTERNET	65	HTTPS	0	NOERROR	F	F	T	T	0	edge-web.dual-gslb.spotify.com	127.000000	F	0	query
+1770556391.508605	C145rw3ngstzNPmFR8	172.20.10.2	60146	172.20.10.1	53	udp	37427	0.114947	spclient.wg.spotify.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	edge-web.dual-gslb.spotify.com,35.186.224.24	127.000000,132.000000	F	0	query
+1770556391.508565	Ck50sm4xNXbGndViw5	172.20.10.2	45365	172.20.10.1	53	udp	12158	0.119654	spclient.wg.spotify.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	edge-web.dual-gslb.spotify.com,2600:1901:1:7c5::	127.000000,178.000000	F	0	query
+1770556392.218040	CgwPtR1mCLLNgUKSW7	fe80::1423:26ab:cd80:a4e5	61194	fe80::600f:6bff:fe5d:8464	53	udp	10397	-	mmx-ds.cdn.whatsapp.net	1	C_INTERNET	65	HTTPS	0	NOERROR	F	F	T	F	0	-	-	F	0	query
+1770556392.218471	CariwV3BNFUSUytmsf	fe80::1423:26ab:cd80:a4e5	55313	fe80::600f:6bff:fe5d:8464	53	udp	31192	0.097154	mmx-ds.cdn.whatsapp.net	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	2a03:2880:f346:120:face:b00c:0:167	67.000000	F	0	query
+1770556392.218701	CvIgEOzdGJU8HAoz4	fe80::1423:26ab:cd80:a4e5	57023	fe80::600f:6bff:fe5d:8464	53	udp	8972	0.108534	mmx-ds.cdn.whatsapp.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	57.144.141.32	63.000000	F	0	query
+1770556391.221449	CyGK983bPWrNfZqtC3	172.20.10.1	5353	172.20.10.2	5353	udp	0	-	_companion-link._tcp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	pablo’s macbook air._companion-link._tcp.local	4500.000000	F	0	query
+1770556401.550392	Co3dYX1JHzCpZ3XkN1	172.20.10.2	25937	172.20.10.1	53	udp	41874	0.156508	sync-v2.brave.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	sync-alb-152764135.us-west-2.elb.amazonaws.com,44.239.78.93,100.22.50.228,52.42.126.84,18.236.43.163,35.162.251.77,54.200.211.207	262.000000,15.000000,15.000000,15.000000,15.000000,15.000000,15.000000	F	0	query
+1770556401.550101	Cgu2dm2bJKWzF4X4R7	172.20.10.2	5771	172.20.10.1	53	udp	40446	0.447811	sync-v2.brave.com	1	C_INTERNET	65	HTTPS	0	NOERROR	F	F	T	T	0	sync-alb-152764135.us-west-2.elb.amazonaws.com	262.000000	F	0	query
+1770556401.550258	CRJMBm3BsO4otd8Dd3	172.20.10.2	17779	172.20.10.1	53	udp	42327	0.447654	sync-v2.brave.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	sync-alb-152764135.us-west-2.elb.amazonaws.com	262.000000	F	0	query
+1770556402.192589	CSFO0h2joDlLxRLYr6	fe80::1423:26ab:cd80:a4e5	57875	fe80::600f:6bff:fe5d:8464	53	udp	14955	0.115677	example.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	52.000000	F	0	query
+1770556408.039082	Co51wYDg6pFjfLHoa	172.20.10.2	52779	172.20.10.1	53	udp	47987	-	ssl.gstatic.com	1	C_INTERNET	65	HTTPS	0	NOERROR	F	F	T	F	0	-	-	F	0	query
+1770556408.039250	Cj153937jgDRgR3Pu6	172.20.10.2	30824	172.20.10.1	53	udp	42815	0.010483	ssl.gstatic.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	2404:6800:4007:81b::2003	77.000000	F	0	query
+1770556408.039368	CVk0c7zLoS2UEwuXc	172.20.10.2	13963	172.20.10.1	53	udp	17351	0.092801	ssl.gstatic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	142.251.43.131	209.000000	F	0	query
+1770556416.765739	Cr9dab4M2phBHJicF7	172.20.10.2	5846	172.20.10.1	53	udp	545	-	accounts.google.com	1	C_INTERNET	65	HTTPS	0	NOERROR	F	F	T	F	0	-	-	F	0	query
+1770556416.765739	CAOx2x1MNPA6xvWy22	172.20.10.2	11368	172.20.10.1	53	udp	63977	-	accounts.google.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	2404:6800:4000:1025::54	243.000000	F	0	query
+1770556416.765739	C1MUcg4McTDvHzwPb6	172.20.10.2	32802	172.20.10.1	53	udp	60267	-	accounts.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.178.211.84	183.000000	F	0	query
+1770556391.155781	Cvlqlc2FUunz1MB6E8	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	32769	qclass-32769	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556392.159146	Cvlqlc2FUunz1MB6E8	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556395.656806	Cvlqlc2FUunz1MB6E8	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556404.184598	Cvlqlc2FUunz1MB6E8	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556391.154786	CwfwDt4a3zBLULkcyf	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	32769	qclass-32769	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556392.158074	CwfwDt4a3zBLULkcyf	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556395.656806	CwfwDt4a3zBLULkcyf	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556404.184595	CwfwDt4a3zBLULkcyf	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556433.540962	C14K7b4x0hYDcYYqme	172.20.10.1	5353	172.20.10.2	5353	udp	0	-	_companion-link._tcp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	pablo’s macbook air._companion-link._tcp.local	4500.000000	F	0	query
+1770556447.668939	C4NDfBVxJXbISvKm3	172.20.10.2	5353	224.0.0.251	5353	udp	0	-	_spotify-connect._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556447.669802	CI7Kg71aJQuZXBKrk6	fe80::1423:26ab:cd80:a4e5	5353	ff02::fb	5353	udp	0	-	_spotify-connect._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556462.448079	C3tn8z42ZGXWOUDp4j	172.20.10.2	3212	172.20.10.1	53	udp	62275	-	sync-v2.brave.com	1	C_INTERNET	65	HTTPS	0	NOERROR	F	F	T	T	0	sync-alb-152764135.us-west-2.elb.amazonaws.com	201.000000	F	0	query
+1770556462.448079	CmWN041eULhzboIBVb	172.20.10.2	53552	172.20.10.1	53	udp	61283	-	sync-v2.brave.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	sync-alb-152764135.us-west-2.elb.amazonaws.com	201.000000	F	0	query
+1770556462.448079	CKx6lA2RpMygVreHoi	172.20.10.2	60801	172.20.10.1	53	udp	43503	0.198137	sync-v2.brave.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	sync-alb-152764135.us-west-2.elb.amazonaws.com,44.239.78.93,52.42.126.84,100.22.50.228,18.236.43.163,35.162.251.77,54.200.211.207	201.000000,15.000000,15.000000,15.000000,15.000000,15.000000,15.000000	F	0	query
+1770556469.536621	CTDvWE4MvegMhfuhj5	fe80::1423:26ab:cd80:a4e5	59630	fe80::600f:6bff:fe5d:8464	53	udp	17241	0.086320	example.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	44.000000	F	0	query
+1770556470.035742	CuSrqB2R02mKhVm61k	fe80::1423:26ab:cd80:a4e5	64208	fe80::600f:6bff:fe5d:8464	53	udp	21247	0.004380	ssl.gstatic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	142.251.43.131	146.000000	F	0	query
+1770556470.044171	CGVFml2WI5QQnqnYgl	172.20.10.2	48384	172.20.10.1	53	udp	4449	0.006598	ssl.gstatic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	142.251.43.131	146.000000	F	0	query
+1770556470.044023	CVG0MU2xlbhjCzr5p3	172.20.10.2	20562	172.20.10.1	53	udp	19915	0.071552	ssl.gstatic.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	2404:6800:4007:81b::2003	328.000000	F	0	query
+1770556470.043720	CN9gdd42bvKM2zvGx5	172.20.10.2	54643	172.20.10.1	53	udp	53941	-	ssl.gstatic.com	1	C_INTERNET	65	HTTPS	0	NOERROR	F	F	T	F	0	-	-	F	0	query
+1770556486.117696	CTcbZs3SpbvtHsATd9	172.20.10.2	4196	172.20.10.1	53	udp	12628	0.025534	prod-dynamite-prod-05-us-signaler-pa.clients6.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	142.251.222.138	314.000000	F	0	query
+1770556486.117696	CxfSZOvwMn5SNuHUk	172.20.10.2	57002	172.20.10.1	53	udp	26139	0.330369	prod-dynamite-prod-05-us-signaler-pa.clients6.google.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	2404:6800:4007:83b::200a	377.000000	F	0	query
+1770556486.117696	CN5pYX2CkUOlFcstf8	172.20.10.2	19764	172.20.10.1	53	udp	27169	-	prod-dynamite-prod-05-us-signaler-pa.clients6.google.com	1	C_INTERNET	65	HTTPS	0	NOERROR	F	F	T	F	0	-	-	F	0	query
+1770556456.892961	Cz4Y862BS1MyoLitFh	172.20.10.1	5353	172.20.10.2	5353	udp	0	-	_companion-link._tcp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	pablo’s macbook air._companion-link._tcp.local	4500.000000	F	0	query
+1770556465.520468	Cz4Y862BS1MyoLitFh	172.20.10.1	5353	172.20.10.2	5353	udp	0	-	_companion-link._tcp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	pablo’s macbook air._companion-link._tcp.local	4500.000000	F	0	query
+1770556469.663208	Cz4Y862BS1MyoLitFh	172.20.10.1	5353	172.20.10.2	5353	udp	0	-	_companion-link._tcp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	pablo’s macbook air._companion-link._tcp.local	4500.000000	F	0	query
+1770556490.833225	CTwG3O3BeRnN0EwMo9	172.20.10.2	17936	172.20.10.1	53	udp	44202	-	2-prod-dynamite-prod-05-us-signaler-pa.clients6.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	142.250.205.138	377.000000	F	0	query
+1770556490.833225	CrDl0u4ShfeDozoOKb	172.20.10.2	63441	172.20.10.1	53	udp	36556	-	2-prod-dynamite-prod-05-us-signaler-pa.clients6.google.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	2404:6800:4007:83a::200a	377.000000	F	0	query
+1770556490.833225	CulFGN2zyPDVz6K1y2	172.20.10.2	53997	172.20.10.1	53	udp	63420	-	2-prod-dynamite-prod-05-us-signaler-pa.clients6.google.com	1	C_INTERNET	65	HTTPS	0	NOERROR	F	F	T	F	0	-	-	F	0	query
+1770556431.411066	CPucHJ1ZyyL934D0yh	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556433.491373	CPucHJ1ZyyL934D0yh	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	32769	qclass-32769	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556434.488541	CPucHJ1ZyyL934D0yh	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556438.085844	CPucHJ1ZyyL934D0yh	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556446.633995	CPucHJ1ZyyL934D0yh	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556456.892961	CPucHJ1ZyyL934D0yh	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	32769	qclass-32769	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556457.672023	CPucHJ1ZyyL934D0yh	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556461.024646	CPucHJ1ZyyL934D0yh	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556465.452038	CPucHJ1ZyyL934D0yh	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	32769	qclass-32769	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556466.454832	CPucHJ1ZyyL934D0yh	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556469.636300	CPucHJ1ZyyL934D0yh	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	32769	qclass-32769	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556470.639604	CPucHJ1ZyyL934D0yh	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556473.804886	CPucHJ1ZyyL934D0yh	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556482.897961	CPucHJ1ZyyL934D0yh	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556431.411063	CjIRIn335lgGRswyn4	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556433.491371	CjIRIn335lgGRswyn4	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	32769	qclass-32769	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556434.488541	CjIRIn335lgGRswyn4	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556438.085844	CjIRIn335lgGRswyn4	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556446.633995	CjIRIn335lgGRswyn4	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556456.892961	CjIRIn335lgGRswyn4	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	32769	qclass-32769	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556457.672023	CjIRIn335lgGRswyn4	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556461.024646	CjIRIn335lgGRswyn4	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556465.452036	CjIRIn335lgGRswyn4	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	32769	qclass-32769	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556466.453887	CjIRIn335lgGRswyn4	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556469.636297	CjIRIn335lgGRswyn4	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	32769	qclass-32769	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556470.639518	CjIRIn335lgGRswyn4	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556473.804884	CjIRIn335lgGRswyn4	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556482.897961	CjIRIn335lgGRswyn4	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556509.424235	CA8Rt01nMMex16CWth	fe80::1423:26ab:cd80:a4e5	64019	fe80::600f:6bff:fe5d:8464	53	udp	13039	-	firestore.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	142.250.206.10	242.000000	F	0	query
+1770556509.721020	C4feockynL3Qjr5U1	172.20.10.1	5353	224.0.0.251	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1770556509.721086	CcBUVL2D9IKttcExh7	fe80::600f:6bff:fe5d:8464	5353	ff02::fb	5353	udp	0	-	_rdlink._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+#close	2026-02-08-18-45-11

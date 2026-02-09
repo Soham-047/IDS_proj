@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	quic
+#open	2026-02-08-18-43-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	client_initial_dcid	client_scid	server_scid	server_name	client_protocol	history
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	string
+1770556373.247314	CrmzdJ2G1OtUVkPyc5	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	58298	2001:4860:4802:32::223	443	1	0d86e5d5ad3c38d1	(empty)	ed86e5d5ad3c38d1	securetoken.googleapis.com	h3	IIISZiiiiishooHOOoOo
+1770556377.040602	CzJvWq1p3V7LQR1RLc	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	54136	2404:6800:4007:81b::2003	443	1	893aa7c8e8f8a492	(empty)	e93aa7c8e8f8a492	ssl.gstatic.com	h3	IISZZiiisIhoooHOOOo
+1770556391.629184	CQwacw1T9af7Z2jmnj	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	53596	2600:1901:1:7c5::	443	1	e098af6239d41dd1	(empty)	e098af6239d41dd1	spclient.wg.spotify.com	h3	IISiiishoHOoOo
+1770556408.134999	CZ8h0z3ZXeLva57Oi5	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	63072	2404:6800:4007:81b::2003	443	1	67001f80fdfa91cd	(empty)	e7001f80fdfa91cd	ssl.gstatic.com	h3	IISZZiiishoooHOOO
+1770556416.765739	Cel7Je4bH6RyrpLNv	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	62031	2404:6800:4000:1025::54	443	1	e282e649ade8e293	(empty)	e282e649ade8e293	accounts.google.com	h3	IISZiiishooHOOOooO
+1770556439.576034	CXNbf51o774ncA4t8l	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	56140	2404:6800:4007:81b::2003	443	1	566d30990f46a4be	(empty)	f66d30990f46a4be	ssl.gstatic.com	h3	IISZZiiishooIHOoOOo
+1770556501.038272	CD5r7b4m9p0hnmv0t3	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	56041	2404:6800:4007:81b::2003	443	1	f6a1085518e7a500	(empty)	f6a1085518e7a500	ssl.gstatic.com	h3	IISZZiiisIhoooHOOoO
+1770556490.833225	ClCRYAUhrjS38THEj	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	65509	2404:6800:4007:83a::200a	443	1	11f2d7f469ee2dcd	(empty)	f1f2d7f469ee2dcd	2-prod-dynamite-prod-05-us-signaler-pa.clients6.google.com	h3	IIISZZiiiiishooHOoOoO
+1770556486.448065	C1D7br3QlVXTuSnjA2	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	59483	2404:6800:4007:83b::200a	443	1	96ab1809a3814bfc	(empty)	f6ab1809a3814bfc	prod-dynamite-prod-05-us-signaler-pa.clients6.google.com	h3	IIISZiiiiishooIHOOOooO
+1770556470.133507	CIP7dV3gIYFhsHc6yi	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	58308	2404:6800:4007:81b::2003	443	1	0552a90f7275a31f	(empty)	e552a90f7275a31f	ssl.gstatic.com	h3	IIISZZiiiiishoooHOOoO
+1770556483.192955	CNMQGV3zOsChUdatfj	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	52393	2404:6800:4007:81b::2003	443	1	7b243e3540d7622f	(empty)	fb243e3540d7622f	ssl.gstatic.com	h3	IISZZiiisIhoooHOOo
+#close	2026-02-08-18-45-11

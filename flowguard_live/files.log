@@ -1,0 +1,49 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2026-02-08-18-43-22
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1770556402.757078	FkYNAtXzan2OrVNsg	CG8cZM2CtSCLYN5I4h	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55361	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556402.757078	FxsBbO25b0AOhAkUjl	CEBFWx2CCuYrcYGKPa	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55362	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556402.757078	FTtNlM3U7Dmwqe6tZ8	CYeXgm16ngSELA7M8l	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55363	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556402.902855	F2c6olpE1xGcBbb0a	CL4mxE1u0bGwoykZK2	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55364	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556403.047469	FjiHF54h9YFacjpSXe	CL5pF945F2dJQMyIA6	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55365	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556403.192584	F8IJ3m31A2tfKzZ3ta	C8Abmj2xqxZdqDOgSk	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55366	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556403.335123	FTq6Zx3yGLMJCoQBDb	CSEBAL38JdC6pY7mif	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55367	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556403.486703	FetVry2yG1vTwqDA5h	CtdBf62v2z6JNYICRj	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55368	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556403.640114	FgGGFt36COiAlA4nBb	CYQAPL35F1bDFZ4zA7	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55369	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556403.785467	FgwzliOjLibgeUxZh	CqyACv3onnbuJiZ4kj	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55370	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556403.944063	FIEW4e4FLOjqeTqAJi	CwRbwq3IbEhRI92ee3	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55371	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556404.112480	FLumMz4t7ZGAiO5gY7	CNKKez2qoZiQGoE4gk	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55372	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556404.259175	FXM9ruT70MOxuKsB5	C2TryP1qQiyI1gMcEj	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55373	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556404.413535	F7xs1cN6gZavVFcQi	CEAx9h16guSUj0yf48	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55374	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556404.584355	FnjDnvGcMP4Arnqki	CSBEqf1zNrKYvTEgqk	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55375	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000003	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556404.748976	Fo8hFQ3DdbnpcnveW2	Cz6Sw24KGc7rNoDvIa	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55376	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556404.927233	FX9X5D3f7EF9Ewh6Bc	CnovkX1YWGQbkVCyFf	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55377	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556405.072507	FDzpYF5oiPXXBEPKa	C9WLfA2nBgdrwKFabh	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55378	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556405.213702	FVmh75W7c4bPPj4B	Cg5JrGflP5XDJ9GMg	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55379	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556405.340553	FqIXNH2hECG23oMFq6	CEk1pkn9k2lIfw3j1	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55380	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556469.536621	F7ip4N22yMbKCIEfJg	CIB2vT115TtVgdjHS4	172.20.10.2	55382	104.18.27.120	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556469.773795	FGRXhI3MCJZA2uJtDh	CWD3STq17FSYtwG02	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55383	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556469.943905	FN5k664EgUSk9YmF5k	CvuJgZ1Y39jqtz4kYh	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55384	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556470.118490	FZRWBH2RD1ZVAQ1EL2	CRcmgt1DYeXJvhKVI7	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55385	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000004	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556470.272065	FlwmsW3TIajfIUl1k	CDcGOd3tvBKfwLdUVj	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55386	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556470.408622	FSxJ7a8ZwoGpQ7j82	CW7BZj72gjCoNNHR2	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55387	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000002	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556470.547067	F2yqDro7p56gfePE	CyQ4dP3OsvkQ9TUKF7	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55388	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556470.681709	Foh7Zx1Z48wJEhnjTl	CmdduG3Ei8RXkoXQua	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55389	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556470.858065	Fdl2Oi4bEHY6MpsAvk	ClLHfE4CrMZCrF1wU2	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55390	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556470.997027	F71LAi4b5ZlRcUl0C5	CqmR3nzQ6OSJXJ9Fk	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55391	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556471.149859	FCJhaX3tlcoBtnhuFe	C27kvCTB7jRy1QFg3	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55392	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000001	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556471.292193	F976de1UpQvYGIVsp6	CLImA63cVAPU7Le2tg	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55393	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556471.439109	FKEwMY1c0sUPRjhg18	CLbG0g35baCEtwkE8c	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55394	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556471.593541	Fr9ikn1tDUaZJ3rZS2	CN76ou1yo8HSXCdaDa	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55395	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556471.744166	FuEgZ1Z5VKaacrQ54	CCbKZf2HIACNYQ3Mte	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55396	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556471.893619	Fqks8n3JMwNw30Cj85	CjcHGr1DG7BSBtZjk6	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55397	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556472.047062	FjMo6L1hkTWSukbqdg	CxiloM1cq4SKo1m1W6	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55398	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556472.202158	FfGPBC1WkyIwdKDjD4	COgegN3NEjTap5oXC3	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55399	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556472.338581	FjFv5k1zfLwdCOVAOd	CUMnux16pMsRHy97hh	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55400	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+1770556472.493263	Fgc2fV23s9cRe3SQj	CLasM43KsgPfEghlFh	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55401	2606:4700:83b2:8c7c:331b:4c6:ccc4:a209	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	513	-	0	0	F	-	-	-	-	-	-	-
+#close	2026-02-08-18-45-11

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2026-02-08-18-42-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1770556372.094163	CGeARC4WdCANJUHMXa	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	51547	2404:6800:4007:838::200e	443	QUIC_spurious_short_header_packet_threshold_crossed	1	F	zeek	-
+1770556373.665671	CP1g444XdHVxk7GAk3	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	53416	2404:6800:4007:80c::200a	443	QUIC_spurious_short_header_packet_threshold_crossed	1	F	zeek	-
+1770556377.312988	Ck8R45Mvzhx9L0wp5	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	53909	2404:6800:4007:805::200a	443	QUIC_spurious_short_header_packet_threshold_crossed	1	F	zeek	-
+1770556383.576137	Cojkev4UtE6HxT67Fa	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	54731	2404:6800:4007:808::200a	443	QUIC_spurious_short_header_packet_threshold_crossed	1	F	zeek	-
+1770556433.487483	CRcv9E1guFiVaUm98k	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	55279	2404:6800:4007:805::200a	443	QUIC_spurious_short_header_packet_threshold_crossed	1	F	zeek	-
+1770556465.422167	CdCi3r4pr27bE3j8L6	2401:4900:3e38:68b9:843b:bfa0:e210:7f3f	52777	2404:6800:4007:808::200a	443	QUIC_spurious_short_header_packet_threshold_crossed	1	F	zeek	-
+#close	2026-02-08-18-45-11
